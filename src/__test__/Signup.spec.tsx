@@ -59,7 +59,7 @@ describe("회원가입 테스트", () => {
     fireEvent.change(emailInput, { target: { value: 'button-activated@email.com' } });
     fireEvent.change(passwordInput, { target: { value: "password" } });
     fireEvent.change(confirmPasswordInput, { 
-      target: { value: "wrongPassword" } 
+      target: { value: "password" } 
     });
 
     // then - 회원가입 버튼 활성화
